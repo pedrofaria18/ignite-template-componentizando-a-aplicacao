@@ -1,6 +1,6 @@
 import { Button } from "./Button";
 
-import { GenreResponseProps } from "../App";
+import { GenreResponseProps } from "../@types/GenreResponse";
 
 import "../styles/sidebar.scss";
 

@@ -1,6 +1,7 @@
 import { MovieCard } from "./MovieCard";
 
-import { GenreResponseProps, MovieProps } from "../App";
+import { GenreResponseProps } from "../@types/GenreResponse";
+import { MovieProps } from "../@types/Movie";
 
 import "../styles/content.scss";
 
