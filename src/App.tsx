@@ -49,7 +49,7 @@ export function App() {
         selectedGenreId={selectedGenreId}
         setSelectedGenreId={handleGenreClick}
       />
-      <Content movies={movies} genreResponse={selectedGenre} />
+      <Content movies={movies} title={selectedGenre.title} />
     </div>
   );
 }

@@ -1,21 +1,20 @@
 import { MovieCard } from "./MovieCard";
 
-import { GenreResponseProps } from "../@types/GenreResponse";
 import { MovieProps } from "../@types/Movie";
 
 import "../styles/content.scss";
 
 interface ContentProps {
-  genreResponse: GenreResponseProps;
+  title: string;
   movies: MovieProps[];
 }
 
-export function Content({ genreResponse, movies }: ContentProps) {
+export function Content({ title, movies }: ContentProps) {
   return (
     <div className="container">
       <header>
         <span className="category">
-          Categoria:<span> {genreResponse.title}</span>
+          Categoria:<span> {title}</span>
         </span>
       </header>
 
